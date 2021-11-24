@@ -41,17 +41,6 @@ navbarToggleBtn.addEventListener ("click", ()=>{
     navbarMenu.classList.toggle ("open");
 });
 
-//넷바 메뉴 선택시 해당 부분으로 이동하기
-/*const navbarMenu = document.querySelector(".navbar__menu");
-navbarMenu.addEventListener("click", (event) => {
-  const target = event.target;
-  const link = target.dataset.link;
-  if (link == null) {
-    return;
-  }
-  navbarMenu.classList.remove("open");
-  scrollIntoView(link);
-}); */
 
 
 function scrollIntoView(selector) {
@@ -59,20 +48,7 @@ function scrollIntoView(selector) {
     scrollTo.scrollIntoView({ behavior: "smooth" });
     };
 
-    /*
-    // arrow up 버튼 스크롤 될 때 생성
-    const arrowUp = document.querySelector(".arrow-up");
-    document.addEventListener("scroll", () => {
-        if (window.scrollY > homeHeight / 2) {
-            arrowUp.classList.add("visible");
-        } else {
-            arrowUp.classList.remove("visible");
-        }
-});
-// arrow up 버튼 클릭했을 때 home으로 올라가기
-    arrowUp.addEventListener("click", () => {
-        scrollIntoView("#home");
-    });*/
+   
 
 const scrollBtn = document.querySelector('.scroll-btn');
 
