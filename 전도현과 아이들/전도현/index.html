@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="praise carrots"> 
+    <meta name="aurhor" content="Carrot Bunny">
+    <title>Carrot Bunny</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/log_main.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/69db5dd5c1.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar 완료-->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <i class="fa fa-heart"></i>
+            <a href="#">Bunny</a> <!-- 링크를 #으로 하면 화면 가장 위로 이동된다 -->
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">My Work</li>
+            <li class="navbar__menu__item" data-link="#testimonials">Friend</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home 완료-->
+    <section id="home" class="section">
+        <div class="home__container">
+            <img src="images/main_img.png" alt="profile img" class="home__avatar">
+            <h1 class="home__title">Carrot Bunny</h1>
+            <h2 class="home__description">It's the story of a rabbit who loves carrots so much.</h2>
+            <button class="home__contact" data-link="#contact">Contact Me</button>
+        </div>
+    </section>
+
+    <!-- About 완료-->
+    <section id="about" class="section">
+        <h1>About Carrot</h1>
+        <p>I like carrots very much.</p>
+        <div class="about__majors">
+            <!-- 아이콘 1 -->
+            <div class="major">
+                <div class="major__icon"><i class="fas fa-heartbeat"></i></div>
+                <h2 class="major__title">Carrot Efficacy</h2>
+                <div class="major__description">contains Fiber, Vitamin, Minerals, Antioxidant.</div>
+            </div>
+
+            <!-- 아이콘 2 -->
+            <div class="major">
+                <div class="major__icon"><i class="fas fa-carrot"></i></div>
+                <h2 class="major__title">Carrot & Rabbit</h2>
+                <div class="major__description">Rabbits actually prefer leaves to carrot roots.</div>
+            </div>
+
+            <!-- 아이콘 3 -->
+            <div class="major">
+                <div class="major__icon"><i class="fas fa-ellipsis-h"></i></div>
+                <h2 class="major__title">Other</h2>
+                <div class="major__description">There is also carrot cake among carrot dishes.</div>
+            </div>
+        </div>
+
+        <div class="about_jobs">
+            <div class="job">
+                <img src="images/carrot_logo.png" alt="bcu" srcset="images/carrot_logo.png">
+                <div class="job__description">
+                    <p class="job__name">How to choose delicious carrots</p>
+                    <p class="job__period">You should choose a carrot with a dark orange color and a carrot with a smooth and hard surface.</p>
+                </div>
+            </div>
+            
+            <div class="job">
+                <img src="images/carrot_logo.png" alt="bcu" srcset="images/carrot_logo.png">
+                <div class="job__description">
+                    <p class="job__name">How to keep carrots</p>
+                    <p class="job__period">Remove the roots of the carrot and wash it clean with water.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills 완료-->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Species</h2>
+            <p>These are my skills and characteristics</p>
+
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                    
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Hearing</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Speed</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 60%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Reproduction rate</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 99%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Strength</span>
+                            <span>84%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 87%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Amount eaten</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Jumping ability</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 98%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Species</h3>
+                        <ul class="tools__list">
+                            <li><span>Chinchilla</span></li>
+                            <li><span>Rex</span></li>
+                            <li><span>Angola</span></li>
+                            <li><span>Dutch</span></li>
+                            <li><span>Lop Ear</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="tools__list">
+                            <li><span>Judith Laverne Hopps</span></li>
+                            <li><span>Bugs Bunny</span></li>
+                            <li><span>Muzi</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Carrot food</h3>
+            <div class="work__categories">
+                <!-- data-filter : filter 설정 -->
+                <button class="category__btn selected" data-filter="*">All<span class="category__count">8</span> </button>
+                <button class="category__btn" data-filter="front-end">Dessert<span class="category__count">3</span> </button>
+                <button class="category__btn" data-filter="back-end">Main<span class="category__count">2</span> </button>
+                <button class="category__btn" data-filter="mobile">Other<span class="category__count">3</span> </button>
+            </div>
+        </div>
+        <div class="work__projects">
+            <!-- data-type : type 설정(filter 설정 필요) -->
+            <a href="#" class="project" target="blank" data-type="front-end">
+                <img src="images/projects/food1.png" alt="Youtube" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Cake</h3>
+                    <span>It doesn't taste like carrots.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="front-end">
+                <img src="images/projects/food2.png" alt="navbar" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Pudding</h3>
+                    <span>It looks like bread.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="front-end">
+                <img src="images/projects/food3.png" alt="navbar" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Donuts</h3>
+                    <span>My favorite one.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="back-end">
+                <img src="images/projects/food4.png" alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Maple-Roasted Carrots</h3>
+                    <span>Unlike how it looks, it's very sweet.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="back-end">
+                <img src="images/projects/food5.png" alt="Youtube" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Salad</h3>
+                    <span>Effective for losing weight.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="back-end">
+                <img src="images/projects/food6.png" alt="Youtube" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Pancake</h3>
+                    <span>It's spicy and sweet.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="mobile">
+                <img src="images/projects/food7.png" alt="Youtube" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Juice</h3>
+                    <span>It tastes better add honey or lemon.</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="mobile">
+                <img src="images/projects/food8.png" alt="Youtube" class="project__img">
+                <div class="project__description">
+                    <h3>Just Carrot</h3>
+                    <span>Carrots are delicious even if you eat them alone.</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
+            <h1>My friend</h1>
+            <h3>Let me introduce my friend.</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="images/testimonial/rabbit1.png" alt="" class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p>Bodyguard who protects us.</p>
+                        <p class="name"><a href="">Chinchilla</a> / The concept of livestock is strong, so most chinchilla rabbits are large species weighing more than 3kg. It is said to be heavy if you hold it with both hands. It has nothing to do with chinchilla, but its fur and texture are similar to those of chinchilla, so it was named Chinchilla Rabbit. He is a good rabbit that always protects us because he grows very fast and gains weight easily.</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__speech-bubble">
+                        <p>Popular among rabbits.</p>
+                        <p class="name"><a href="">Lop Ear</a> / It is a rabbit improved for pets in the UK. Compared to other rabbits, he is generally gentle and gentle. It is characterized by drooping ears and rounded edges, and is popular among rabbits thanks to its unique appearance. You may think it's small because of its round appearance, but Rob year rabbits, who have grown to some extent, grow more than 4kg.</p>
+                    </div>
+                    <img src="images/testimonial/rabbit2.png" alt="" class="testimonial__avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">CarrotBunny@rabit.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/whiterabbit09" target="blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" target="blank">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+        </div>
+        <p class="contact__rights">
+            2021 Dream Carrot Bunny - All right reserved
+        </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
