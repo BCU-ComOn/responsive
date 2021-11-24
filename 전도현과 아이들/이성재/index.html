@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LSJ"> <!--Website description-->
+    <meta name="author" content="LSJ"> <!--Developer description-->
+    <link rel="icon" href="imgs/coffee_icon.png">
+    <script src="https://kit.fontawesome.com/b3ff0b2f81.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>LSJ</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar_logo">
+            <i class="fab fa-diaspora" style="color: white;"></i>
+            <span>LSJ</span>
+        </div>
+        <ul class="navbar_menu" id="navbar_menu">
+            <li class="navbar_menu_item" data-link="#home">Home</li>
+            <li class="navbar_menu_item" data-link="#about">About</li>
+            <li class="navbar_menu_item" data-link="#skills">Skills</li>
+            <li class="navbar_menu_item" data-link="#work">My works</li>
+            <li class="navbar_menu_item" data-link="#testimonials">Testimonials</li>
+            <li class="navbar_menu_item" data-link="#contact">Contact</li>
+        </ul>
+        <!-- toggle button -->
+        <button class="navbar_toggle_btn" >
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    
+    <!-- home -->
+    <section id="home">
+        <div class="home_container">
+            <img src="imgs/coffee_icon.png" alt="profile img" class="home_avatar">
+            <h1 class="home_title">ISJ</h1>
+            <h2 class="home_description">
+                hello, nice to meet you!
+            </h2>
+            <button class="home_contact" data-link="#contact">Contact me!</button>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="section">
+        <h1>About me</h1>
+        <p>
+            I like baking & coding!
+        </p>
+        <div class="about_majors">
+            <!-- First major -->
+            <div class="major">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major_title">
+                    Front-end
+                </h2>
+                <div class="major_description">
+                    HTML, CSS, JavaScript, TypeScript,<br/>React, Vue, Web APIs
+                </div>
+            </div>
+            <!-- Second Major -->
+            <div class="major">
+                <div class="major_icon">
+                    <i class="fas fa-mobile"></i>
+                </div>
+                <h2 class="major_title">
+                    Mobile
+                </h2>
+                <div class="major_description">
+                    Android, iOS, React Native, Flutter,<br/>Java, Swift, Kotlin
+                </div>
+            </div>
+            <!-- Third Major -->
+            <div class="major">
+                <div class="major_icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h2 class="major_title">
+                    Back-end
+                </h2>
+                <div class="major_description">
+                    Java, JavaScript, Go, NodeJS,<br/>Rest APIs, GraphGL
+                </div>
+            </div>
+        </div>
+        <div class="about_jobs">
+            <div class="job">
+                <img src="imgs/jobs/bucheon_university_logo.png" alt="bcu" class="job_logo">
+                <div class="job_description">
+                    <p class="job_name">I am currently attending Bucheon University.</p>
+                    <p class="job_peroid">Entrance in 2021 ~ Graduation in 2024</p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="imgs/jobs/bucheon_university_logo.png" alt="bcu" class="job_logo">
+                <div class="job_description">
+                    <p class="job_name">I am currently attending Bucheon University.</p>
+                    <p class="job_peroid">Entrance in 2021 ~ Graduation in 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills" class="section">
+        <div class="section_container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>
+                I am interested in learning new things and enjoy planning. I can do a good job of coordination opinions.
+            </p>
+            <!-- skillset -->
+            <div class="skillset">
+                <div class="skillset_left">
+                    <h3 class="skillset_title">Skills</h3>
+                    <!-- skill bars (descriptions) -->
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 99%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>TypeScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>React</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>NodeJS</span>
+                            <span>77%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 77%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset_right">
+                    <div class="tools">
+                        <h3 class="skillset_title">Tools</h3>
+                        <ul class="tools list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>IntelliJ</span></li>
+                            <li><span>Android Studio Code</span></li>
+                            <li><span>iOS development tools</span></li>
+                            <li><span>Sketch apps</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset_title">Etc</h3>
+                        <li><span>Git</span></li>
+                        <li><span>Scrum master</span></li>
+                        <li><span>Math</span></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work -->
+    <section id="work" class="section">
+        <div class="section_container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work_categories">
+                <button class="category_btn selected" data-filter="*">All <span class="category_count">8</span></button>
+                <button class="category_btn" data-filter="front-end">Front-end <span class="category_count">3</span></button>
+                <button class="category_btn" data-filter="back-end">Back-end <span class="category_count">2</span></button>
+                <button class="category_btn" data-filter="mobile">Mobile <span class="category_count">3</span></button>
+            </div>
+        </div>
+        <div class="work_projects">
+            <a href="" class="project" target="blank" data-type="front-end">
+                <img src="imgs/projects/project1.png" alt="Youtube" class="project_img">
+                <div class="project_description">
+                    <h3>Youtube Site</h3>
+                    <span>Clone coding with HTML, CSS</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="front-end">
+                <img src="imgs/projects/project2.png" alt="navbar" class="project_img">
+                <div class="project_description">
+                    <h3>Responsive Navbar</h3>
+                    <span>HTML, CSS with media query</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="front-end">
+                <img src="imgs/projects/project3.png" alt="navbar" class="project_img">
+                <div class="project_description">
+                    <h3>Shopping mall game</h3>
+                    <span>HTML, CSS, JavaScript, Json</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="back-end">
+                <img src="imgs/projects/project4.png" alt="" class="project_img">
+                <div class="project_description">
+                    <h3>Project</h3>
+                    <span>Explanation</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="back-end">
+                <img src="imgs/projects/project5.png" alt="" class="project_img">
+                <div class="project_description">
+                    <h3>Project</h3>
+                    <span>Explanation</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="mobile">
+                <img src="imgs/projects/project6.png" alt="" class="project_img">
+                <div class="project_description">
+                    <h3>Project</h3>
+                    <span>Explanation</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="mobile">
+                <img src="imgs/projects/project7.png" alt="" class="project_img">
+                <div class="project_description">
+                    <h3>Project</h3>
+                    <span>Explanation</span>
+                </div>
+            </a>
+            <a href="" class="project" target="blank" data-type="mobile">
+                <img src="imgs/projects/project8.png" alt="" class="project_img">
+                <div class="project_description">
+                    <h3>Project</h3>
+                    <span>Explanation</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- testimonials -->
+    <section id="testimonials" class="section">
+        <div class="section_container">
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="imgs/projects/people1.jpg" alt="" class="testimonial_avatar">
+                    <div class="testimonial_speech-bubble">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga libero nulla eveniet aperiam laborum, quis provident quibusdam officiis reprehenderit, placeat neque perspiciatis vero explicabo tempora, dignissimos accusantium inventore ducimus!</p>
+                        <p class="name"><a href="">LSJ</a> / BucheonUniv</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial_speech-bubble">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga libero nulla eveniet aperiam laborum, quis provident quibusdam officiis reprehenderit, placeat neque perspiciatis vero explicabo tempora, dignissimos accusantium inventore ducimus!</p>
+                        <p class="name"><a href="">LSJ</a> / BucheonUniv</p>
+                    </div>
+                    <img src="imgs/projects/people1.jpg" alt="" class="testimonial_avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+        <h1 class="contact_title">Let's talk</h1>
+        <h2 class="contact_email">bleotop@naver.com</h3>
+        <div class="contact_links">
+            <a href="https://github.com/MintSoda07" target="blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" target="blank">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+        </div>
+        <p class="contact_rights">
+            2021 Dream Coding LSJ - All rights reserved
+        </p>
+    </section>
+    <!-- Arrow up-->
+    <button class="arrow-up" data-link="#home">
+        <i class="fas fa-arrow-up"></i>
+    </button>        
+</body>
+</html>
